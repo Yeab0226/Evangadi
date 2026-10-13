@@ -35,7 +35,7 @@ app.use(
 app.use("/api", mainRouter);
 
 app.use("/", (req, res) => {
-  res.status(200).json({ message: "Welcome to the Evangadi API" });
+  res.status(200).json({ message: "It's working" });
 });
 
 app.use(errorHandler);
